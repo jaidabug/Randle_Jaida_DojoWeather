@@ -1,0 +1,146 @@
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+/* Top Nav */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(133, 170, 246);
+    font-size: 30px;
+    padding: 10px 350px;
+    color: aliceblue;
+}
+
+.nav-cities {
+    display:flex;
+    justify-content: space-between;
+    cursor: pointer;
+    width: 400px;
+}
+
+.nav-list{
+    display: flex; 
+}
+
+/* Top Section */
+
+section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 350px;
+    font-size: 20px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+select {
+    cursor: pointer;
+}
+
+hr.line {
+    border-top: 3px solid black;
+    width: 1040px;
+}
+
+/* Main / Weather */
+
+/* Box */
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    margin: 20px 15px;
+    height: 400px;
+    width: 240px;
+    background-color: rgba(255, 233, 233, 0.831);
+    text-align: center;
+}
+
+/* content */
+
+.weatherInfo {
+    display: flex;
+    display: inline-block;
+}
+
+.day {
+    font-size: 28px;
+    margin: 25px;
+}
+
+.weatherIcon {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+
+}
+.aboutWeather  {
+    font-size: 23px;
+    margin: 20px;
+}
+
+.tempShown{
+    display: flex;
+    justify-content: space-between;
+    font-size: 28px;
+}
+
+.rightTemp{
+    color: rgb(74, 105, 219);
+}
+
+.leftTemp{
+    color: rgb(240, 86, 86);
+}
+
+/* Footer Cookie box */
+
+.footer {
+    position: fixed;
+    margin: 10px 350px;
+}
+
+#end{
+    background-color: rgba(255, 233, 233, 0.831) ;
+    border: 3px solid black;
+    width: 1045px;
+}
+
+.cookie {
+    width: 90px;
+    height: 90px;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cookieText {
+font-size: 17px;
+}
+
+a {
+    color: rgb(30, 146, 235);
+}
+
+.acceptCookies {
+    font-weight: bold;
+    margin: 30px;
+    width: 200px;
+    background-color: rgb(112, 193, 255);
+    border: 2px solid black;
+    box-shadow: 4px 4px black;
+}

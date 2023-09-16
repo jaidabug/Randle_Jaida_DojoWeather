@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DojoWeather</title>
+    <link rel="stylesheet" href="./Dojoweather.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 class="tittle">DojoWeather</h1>
+            <ul class="nav-cities">
+                <li class="nav-list" onclick="alert('Loading weather report...')">Burbank</li>
+                <li class="nav-list" onclick="alert('Loading weather report...')">Chicago</li>
+                <li class="nav-list" onclick="alert('Loading weather report...')">Dallas</li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>San Jose</h2>
+        <label>show temperature in 
+            <select onchange="chooseTemp()">
+                <option>°C</option>
+                <option>°F</option>
+            </select>
+        </label>
+    </section>
+    <div>
+        <hr class="line">
+    </div>
+    <main>
+        <div class="row">
+            <div class="container">
+                <div class="weatherInfo">
+                    <p class="day">Today</p>
+                    <img class= "weatherIcon" src="./some_rain.png" alt="Rain cloud">
+                    <p class="aboutWeather">some rain</p>
+                    <div class="tempShown">
+                        <p class="rightTemp" onchange="chooseTemp()">24°</p>
+                        <p class="leftTemp">18°</p>
+                    </div>
+                </div>    
+            </div>
+            <div class="container">
+                <div class="weatherInfo">
+                    <p class="day">Tomorow</p>
+                    <img class= "weatherIcon" src="./some_sun.png" alt="Rain cloud">
+                    <p class="aboutWeather">some sun</p>
+                    <div class="tempShown">
+                        <p class="rightTemp">27°</p>
+                        <p class="leftTemp">19°</p>
+                    </div>
+                </div>    
+            </div>
+            <div class="container">
+                <div class="weatherInfo">
+                    <p class="day">Friday</p>
+                    <img class= "weatherIcon" src="./some_clouds.png" alt="Rain cloud">
+                    <p class="aboutWeather">some clouds</p>
+                    <div class="tempShown">
+                        <p class="rightTemp">21°</p>
+                        <p class="leftTemp">16°</p>
+                    </div>
+                </div>    
+            </div>
+            <div class="container">
+                <div class="weatherInfo">
+                    <p class="day">Saturday</p>
+                    <img class= "weatherIcon" src="./some_sun.png" alt="Rain cloud">
+                    <p class="aboutWeather">some sun</p>
+                    <div class="tempShown">
+                        <p class="rightTemp">26°</p>
+                        <p class="leftTemp">21°</p>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </main>
+    <div class="footer">
+        <div id="end" >
+            <img src="./cookie.png" alt="Cookie picture" class="cookie">
+            <ul class="cookieText">
+                <li class="bold">Stop! Cookie Time</li>
+                <li>We use cookies (saddly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic.<a href="">Read more...</a> </li>
+            </ul>
+            <button class="acceptCookies" onclick="Hide()">I Accept</button>
+        </div>
+    </div>
+    <script src="./dojoweather.js"></script>
+</body>
+</html>
